@@ -4,13 +4,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
     background-color: black;
     color: white;
+    font-family: Mulish;
+    text-align: center;
 }
 
 .stopwatch {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     border: 3px solid #492855;
     border-radius: 20px;
