@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #492855;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #261B2A;
+}
+
+.display {
+    font-size: 45px;
+    font-family: Mulish;
+    color: #AC5EC9;
+    text-shadow: 2px 2px 2px #492855;
+}
+
+.controles button{
+    font-family: Mulish;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px 3px;
+    background-color: #AC5EC9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controles button:hover{
+    background-color:#8317AA;
+} 
